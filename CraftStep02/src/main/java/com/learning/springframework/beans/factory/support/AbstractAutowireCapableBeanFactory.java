@@ -18,7 +18,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         try {
             bean = beanDefinition.getBeanClass().newInstance();
         } catch (InstantiationException | IllegalAccessException e) {
-            throw new BeansException("Instantiation of been failed", e);    // TODO(zhangzekun) could do more to give more info out when error occurs
+            throw new BeansException("Instantiation of bean failed", e);    // TODO(zhangzekun) could do more to give more info out when error occurs
         }
 
         registerSingleton(beanName, bean);    // TODO(zhangzekun) how to solve concurrent conflicts
