@@ -5,6 +5,11 @@
     <groupId>com.learning</groupId>
     <artifactId>springcrafter</artifactId>
     <version>1.0.0</version>
+    <modules>
+        <module>craftstep01</module>
+        <module>craftstep02</module>
+        <module>craftstep03</module>
+    </modules>
     <packaging>pom</packaging>
 
     <properties>
