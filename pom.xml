@@ -9,6 +9,7 @@
         <module>craftstep01</module>
         <module>craftstep02</module>
         <module>craftstep03</module>
+        <module>CraftStep04</module>
     </modules>
     <packaging>pom</packaging>
 
